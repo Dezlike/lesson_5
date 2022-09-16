@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+body{
+   font-family: Caveat;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.6;
+	width: 800px;
+	margin: 0px auto;
+
+}
+img{
+	width: 800px;
+}
+header{
+	font-weight: 700;
+	font-size: 75px;
+	line-height: 1.4;
+	color: rgb(238, 240, 228);
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 3px 4px 6px #070707,9px 4px 4px rgb(208, 215, 224);
+	letter-spacing: -6px;
+	background-color: rgba(27, 221, 134, 0.461);
+
+	margin: 0px 250px 15px 250px;
+	padding: 50px 10px;
+}
+
+h1{
+	font-size: 35px;
+	text-decoration:overline ;
+}
+h2{
+	text-align: right;
+	font-weight: 700;
+	text-transform: uppercase ;
+}
+.text{
+	text-transform:capitalize;
+}
+mark{
+	text-decoration: underline;
+
+}
+
+.redundant{
+	font-family: CircularStd;
+	font-weight: 900;
+	text-decoration:line-through;
+}
+.transform{
+	text-transform: lowercase;
+	text-indent :50px;
+	word-spacing:25px;
+}
+.aling {
+	color: aquamarine;
+	text-align: justify;
+	
+}
